@@ -340,7 +340,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3208.995171837649!2d138.33309507650878!3d36.4576729723467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dbe14c5a3ccc1%3A0xbba8de7ea553eecb!2z5qCq5byP5Lya56S-IOWJtemiqA!5e0!3m2!1sja!2sjp!4v1744347302947!5m2!1sja!2sjp"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411273.5803471806!2d137.9031010706135!3d36.358965914100914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601da32fd89a4f8b%3A0x5e95147d2fa2bc25!2z44Of44Ok44Oe6KO95L2c5omA!5e0!3m2!1sja!2sjp!4v1745987333428!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
@@ -349,7 +349,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://sohfu.co.jp/">https://sohfu.co.jp/</a></dd>
+			<dd><a href="https://miyamass.jp/">https://miyamass.jp/</a></dd>
 		</div>
 	</dl>
 </section>
