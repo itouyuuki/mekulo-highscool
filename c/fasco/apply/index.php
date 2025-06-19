@@ -21,7 +21,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -70,32 +70,31 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_wr">
-	<img alt="" class="fv_image" src="../firstview.jpg">
+	<img alt="" class="fv_image" src="../introduce12.jpg">
 	<div class="apply">
 		<h1 class="catch"><?= $co['company_name'] ?></h1>
 		<p class="tag">応募前見学ページ</p>
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span>自分の身長より大きい！？</span><br>
-		<span>製品の製造現場をのぞいてみよう！</span></p>
+	<p class="catchcopy"><span></span></p>
 	<p class="cont">
-		内藤工業所の応募前見学では、小さな部品の加工から大きな製品の溶接までを間近で見学しながら、仕事内容について説明します。<br>
-		工場内の雰囲気を実際に感じながら、社長や専務から会社のことを直接聞くことができます。<br>
-		タイミングが合えば、自分の身長の2倍ほどもある製品が溶接される、迫力満点の作業を見ることができるかもしれません。
+		
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年7月29日（火） 14時00分～</li>
-			<li>2025年8月5日（火） 14時00分～</li>
+			<li>2025年8月5日（火）13時30分～</li>
+			<li>2025年8月6日（水）13時30分～</li>
+			<li>2025年8月7日（木）13時30分～</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>会社説明<span>10分程度</span></li>
-			<li>工場見学<span>30分程度</span></li>
+			<li>会社説明<span>15分</span></li>
+			<li>工場見学<span>15分</span></li>
+			<li>体験<span>60分</span></li>
 		</ul>
 	</div>
 	<a href="../apply/#entry" class="entry-btn">
@@ -110,5 +109,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../tab.js"></script>
 <script src="../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 </body>
