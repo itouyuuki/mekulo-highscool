@@ -355,7 +355,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>220,000円</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
