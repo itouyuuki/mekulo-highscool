@@ -320,7 +320,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>[TBD]220,000円</dd>
+					<dd>220,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -355,7 +355,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均40時間</dd>
+					<dd>月平均30時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
@@ -363,7 +363,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>当社年間休日カレンダーによる。年間休日93日</dd>
+					<dd>当社年間休日カレンダーによる。年間休日101日</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
@@ -399,7 +399,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			</dl>
 		</div>
 		<div class="content career">
-			<h3>青少年雇用情報[TBD]</h3>
+			<h3>青少年雇用情報</h3>
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
@@ -420,21 +420,21 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						10年<br>
+						15年<br>
 						※創業以降の実績
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>50歳</dd>
+					<dd>40歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
-					<dd>なし</dd>
+					<dd>あり（資格取得研修）</dd>
 				</div>
 				<div>
 					<dt>研修内容</dt>
-					<dd>なし</dd>
+					<dd>各種資格に応じて</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
@@ -456,8 +456,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>なし</dd>
 				</div>
 				<div>
-					<dt>前年度の月平均所定労働時間</dt>
-					<dd>20時間</dd>
+					<dt>前年度の月平均所定外労働時間</dt>
+					<dd>30時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>

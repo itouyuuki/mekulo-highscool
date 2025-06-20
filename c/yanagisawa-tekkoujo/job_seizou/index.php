@@ -355,7 +355,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>-</dd>
+					<dd>220,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -390,7 +390,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均40時間</dd>
+					<dd>月平均30時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
@@ -398,7 +398,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>当社年間休日カレンダーによる。年間休日93日</dd>
+					<dd>当社年間休日カレンダーによる。年間休日101日</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
@@ -454,9 +454,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
-					<dd>
-
-					</dd>
+					<dd>25年</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
@@ -464,16 +462,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>研修の有無</dt>
-					<dd>なし</dd>
+					<dd>あり（資格取得研修）</dd>
 				</div>
 				<div>
 					<dt>研修内容</dt>
-					<dd>なし</dd>
+					<dd>各種資格に応じて</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-
+						〇資格取得支援<br>
+						業務に関係するの資格取得にかかる費用について、会社承認の上で、100%補助を行っています。
 					</dd>
 				</div>
 				<div>
@@ -489,12 +488,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>なし</dd>
 				</div>
 				<div>
-					<dt>前年度の月平均所定労働時間</dt>
-					<dd>時間</dd>
+					<dt>前年度の月平均所定外労働時間</dt>
+					<dd>30時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>日</dd>
+					<dd>8日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>

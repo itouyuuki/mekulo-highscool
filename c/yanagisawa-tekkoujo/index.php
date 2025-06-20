@@ -307,9 +307,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク[TBD]", 'color' => '#E06A3A'],
-						[ 'value' => 100, 'caption' => "徒歩[TBD]", 'color' => '#009F6B'],
-						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
+						[ 'value' => 95, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 5, 'caption' => "徒歩", 'color' => '#009F6B'],
 					]); ?>
 				</svg>
 			</div>
