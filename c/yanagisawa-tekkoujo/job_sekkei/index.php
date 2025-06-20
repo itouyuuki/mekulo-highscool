@@ -490,13 +490,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>[TBD]人</dd>
+					<dd>-人</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						[TBD]2025年7月29日（火） 14時00分～<br>
-						2025年8月5日（火） 14時00分～
+						-
 					</dd>
 				</div>
 				<div>
