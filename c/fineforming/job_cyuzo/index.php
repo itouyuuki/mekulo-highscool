@@ -37,7 +37,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -249,7 +249,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="hoyano.jpg" alt="">
+				<img src="hoyano.png" alt="">
 				<hgroup>
 					<h3>保屋野朗光さん</h3>
 					<p>
@@ -346,7 +346,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>165,000円～（平均226,000円）</dd>
+					<dd>170,000円～220,000円</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -354,7 +354,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>定期的に支払われる手当②</dt>
-					<dd>作業手当（22,000～35,000円）</dd>
+					<dd>作業手当（18,000～22,000円）</dd>
 				</div>
 				<div>
 					<dt>固定残業代</dt>
@@ -599,7 +599,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>

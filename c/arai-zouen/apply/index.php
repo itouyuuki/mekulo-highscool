@@ -77,8 +77,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span></span><br>
-		<span></span></p>
+	<p class="catchcopy"><span>仕事体験もできる！？</span><br>
+		<span>職人技を間近で見てみよう！</span></p>
 	<p class="cont">
 	                実際に職人が庭木の剪定をしている様子を、すぐ近くで見学できます。熟練の技や道具の使い方を間近で見られる貴重な機会です。<br>
                     職人が切った枝をほうきや熊手で集めるといった、簡単な体験もご用意しています。体を動かしながら、造園の仕事にふれてみてください。<br>
