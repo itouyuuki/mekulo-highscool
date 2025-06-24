@@ -11,7 +11,7 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = 'エースワーカーズ,高卒,高卒求人,応募前見学';//メタキーワードの追加
+$keywords = '';//メタキーワードの追加
 $description = '株式会社エース・ワーカーズは、塗装工事とシーリング防水工事の両方を手がける職人集団です。長野県を中心に、建物の美しさと耐久性を高めるための確かな技術と真心で施工を行っています。技術力・心意気・人間力を大切に、街をもっとカッコよくします。';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';

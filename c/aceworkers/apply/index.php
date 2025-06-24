@@ -10,7 +10,7 @@ include_once $highschool_base . 'circle.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = 'エースワーカーズ,高卒,高卒求人,応募前見学';//メタキーワードをここに挿入
+$keywords = '';//メタキーワードをここに挿入
 $description = '株式会社エースワーカーズの応募前見学情報ページです。';//メタディスクリプションをここに挿入
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
