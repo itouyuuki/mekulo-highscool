@@ -70,35 +70,39 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_wr">
-	<img alt="" class="fv_image" src="../first-view.jpg">
+	<img alt="" class="fv_image" src="../first-view2.jpg">
 	<div class="apply">
 		<h1 class="catch"><?= $co['company_name'] ?></h1>
 		<p class="tag">応募前見学ページ</p>
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span>TBD</span>
+	<p class="catchcopy">
 	</p>
 	<p class="cont">
-		
+		ウッドテック秋富での応募前見学では、サッシの製造を行っている芳田工場で、会社の説明や工場を見学します。<br>
+		工場では、大きなサッシを加工している様子が見られるかもしれません。<br>
+		実際に働いている様子を見て、仕事の内容や現場の雰囲気を感じてみてください。
 	</p>
 	<div class="opendate">
-		<p>開催日時</p>
+	<p><br>開催日時</p>
 		<ul>
-			<li>2025年 月 日（ ） 時 分～</li>
-			<li>2025年 月 日（ ） 時 分～</li>
+			<li>2025年8月4日（月）10時00分～</li>
+			<li>2025年8月5日（火）10時00分～</li>
+			<li>※その他の日程は相談して下さい。</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>会社説明<span>  分程度</span></li>
-			<li>工場見学<span>  分程度</span></li>
+			<li>見学場所：芳田工場</li>
+			<li>会社説明<span>10分程度</span></li>
+			<li>工場見学<span>30分程度</span></li>
 		</ul>
 	</div>
 	<a href="../apply/#entry" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
-		<span>応募する</span>
+		<span>応募する！</span>
 		<img src="../../../arrow.svg">
 	</a>
 </section>

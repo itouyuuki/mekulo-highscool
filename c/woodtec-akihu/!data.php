@@ -34,20 +34,20 @@ $occupation = [
         'url' => 'job_tosou',
         'catch_copy' => '仕上げが勝負！見た目や手触りを整える職人',
         'work' => ['536'],
-        'fv_url' => 'job_tosou/first.view.jpg',
+        'fv_url' => 'job_tosou/first_view.jpg',
         'latitude' => 36.441304,//緯度
         'longitude' => 138.310133,//経度    
-        'MBTI' => 'I-fp'
+        'MBTI' => 'I-fp',
     ],
     'job_sekkei' => [
         'name' => '設計職',
         'url' => 'job_sekkei',
         'catch_copy' => '使う場面を思い浮かべ、使いやすさを図面に込める',
         'work' => ['536'],
-        'fv_url' => 'job_sekkei/first.view.jpg',
+        'fv_url' => 'job_sekkei/first_view.jpg',
         'latitude' => 36.441304,//緯度
         'longitude' => 138.310133,//経度    
-        'MBTI' => 'Intj',    
+        'MBTI' => 'Intj',
     ],
 ];
 
@@ -57,38 +57,21 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年 月 日（ ） 時  分～', 
-                'date' => '2025-0 -  ',
-                'deadline' => '2025-0 -  ',//募集締切日
+                'name' => '2025年8月4日（月）10時00分～', 
+                'date' => '2025-08-04',
+                'deadline' => '2025- -  ',//募集締切日
             ],
             [
-                'name' => '2025年 月 日（ ）  時  分～', 
-                'date' => '2025-08-0 ',
-                'deadline' => '2025-08-0 ',//募集締切日
+                'name' => '2025年8月5日（火）10時00分～', 
+                'date' => '2025-08-05',
+                'deadline' => '2025- -  ',//募集締切日
             ],
         ],
-        'catch_copy' => '！',
-        'visit_img' =>'first-view.jpg',
+        'catch_copy' => '応募前見学',
+        'visit_img' =>'first-view2.jpg',
         'content' => '工場内をご案内しながら、作業内容について詳しくご説明致します。',
     ],
-    [
-        'about' => '応募前見学',
-        'date' => [
-            [
-                'name' => '2025年 月  日（ ）  時00分～', 
-                'date' => '2025-0 -  ',
-                'deadline' => '2025-0 -  ',//募集締切日
-            ],
-            [
-                'name' => '2025年8月5日（ ）  時00分～', 
-                'date' => '2025-0 -0 ',
-                'deadline' => '2025-0 -0 ',//募集締切日
-            ],
-        ],
-        'catch_copy' => '！',
-        'visit_img' =>'first-view.jpg',
-        'content' => '工場内をご案内しながら、作業内容について詳しくご説明致します。',
-    ],
+    
     
 ];
 

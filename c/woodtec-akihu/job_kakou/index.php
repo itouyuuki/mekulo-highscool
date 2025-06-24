@@ -133,7 +133,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				いろんな部署で力をつける
 			</h3>
 			<p>
-				職人は、入社後に配属先が決まり、さまざまな部署を経験しながら、少しずつ技術の幅を広げていきます。建具職人と家具職人は本社工場、サッシ職人は芳田工場で勤務します。
+				職人は、入社後に配属先が決まり、さまざまな部署を経験しながら、少しずつ技術の幅を広げていきます。建具職人と家具職人は真田工場、サッシ職人は芳田工場で勤務します。
 			</p>
 			<div class="images">
 				<img src="sanada.jpg" alt="" class="scene">
@@ -384,7 +384,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>木製建具・家具の製造全般</dd>
+					<dd>木製建具、家具、木製サッシ製造</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -396,15 +396,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
-					<dd>-</dd>
+					<dd>あり(3カ月間)</dd>
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
-					<dd>-</dd>
+					<dd>同条件</dd>
 				</div>
 				<div>
 					<dt>就業場所</dt>
@@ -418,7 +418,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>建物内喫煙不可</dd>
+					<dd>あり(喫煙室設置)</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
@@ -434,7 +434,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>必要な知識・技能等</dt>
-					<dd>不問</dd>
+					<dd>普通自動車運転免許 必須	</dd>
 				</div>
 			</dl>
 			<h3>賃金・手当</h3>
@@ -445,15 +445,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>21日</dd>
+					<dd>21.1日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
-					<dd> </dd>
+					<dd>180,000円</dd>
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>190,000円～</dd>
+					<dd>180,000円～</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -469,7 +469,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd> </dd>
+					<dd>180,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -485,7 +485,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり（上限あり）</dd>
+					<dd>実費支給（上限あり）</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
@@ -508,22 +508,22 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休2日制（土日・祝日・他）</dd>
+					<dd>週休2日制（土日・他）</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>当社カレンダーによる</dd>
+					<dd>お盆、年末年始等</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、雇用保険、労災保険</dd>
+					<dd>厚生年金保険、健康保険、雇用保険、労災保険、財形保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd> </dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
@@ -531,7 +531,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり（60歳）</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
@@ -556,7 +556,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：1人</dd>
 				</div>
 				<div>
 					<dt>直近3年間の新卒者等離職者数</dt>
@@ -564,7 +564,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>男性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：1人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
@@ -573,13 +573,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						 年<br>
+						 12.5年<br>
 						※創業以降の実績
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>41.5歳</dd>
+					<dd>42.8歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
@@ -593,7 +593,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>自己啓発支援の有無</dt>
 					<dd>
 						〇資格取得支援<br>
-						業務に関係するの資格取得にかかる費用について、会社承認の上で、補助を行っています。
+						技能検定等資格取得支援
 					</dd>
 				</div>
 				<div>
@@ -610,23 +610,23 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd>20時間</dd>
+					<dd>6.6時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>10日</dd>
+					<dd>12.8日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
-					<dd>女性：0人、男性：0人</dd>
+					<dd>女性：1人、男性：0人</dd>
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>0名</dd>
+					<dd>2名</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>66%</dd>
+					<dd>0%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
@@ -634,7 +634,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>製造職</dd>
+					<dd>建具製造業</dd>
 				</div>
 			</dl>
 		</div>
@@ -647,14 +647,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
-					<dd>
-						2025年7月 日（ ） 00時00分～<br>
-						2025年8月 日（ ） 00時00分～
-					</dd>
+					<dd>随時</dd>
 				</div>
 				<div>
 					<dt>選考方法</dt>
-					<dd>書類選考、面接</dd>
+					<dd>書類選考、面接(1回)</dd>
 				</div>
 				<div>
 					<dt>選考旅費</dt>
@@ -662,12 +659,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後５日以内</dd>
+					<dd>面接後７日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						
+						取締役常務<br>
+						秋山 隆太郎
 					</dd>
 				</div>
 			</dl>

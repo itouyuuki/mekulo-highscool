@@ -129,13 +129,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
     <?php endforeach; ?>
 </div>
 	<h3>取材担当者からのポイント！</h3>
-	<h4 class="point">TBD</h4>
+	
 	<figure class="portrait">
 		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p>
-		TBD
+		ウッドテック秋富さんを取材して印象的だったのは、社員のみなさんが本当に楽しそうに仕事をしていたことです。<br>
+        といっても、「わいわい楽しい」という楽しさとは少し違います。<br>
+        木材がピタッとはまったときの達成感や、難しい作業をやりきる面白さなど、自分の仕事と真剣に向き合っているからこその「楽しさ」があちこちにあふれていました。
+        どの職種の仕事も、基本的には一人で黙々と取り組むスタイル。ですが、現場では「これ、先にやっちゃうね」「ここお願いできる？」と自然に声をかけ合う場面も。<br>
+        真剣だけど、気さくな社員さんたちがあなたを待っています。
 	</p>
 </div>
 <section class="content" id="about_company">
@@ -275,26 +279,26 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p class="remark">（2025年1月1日現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span> </span>億円</p>
-		<p class="year">※2024年実績</p>
+		<p class="num"><span>6.7</span>億円</p>
+		<p class="year"></p>
 	</div>
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>41.5</span>歳</p>
+			<p class="num"><span>42.8</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span> </span>年</p>
+			<p class="num"><span>12.5</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
-			<p class="num"><span>18</span>時間</p>
+			<p class="num"><span>6.6</span>時間</p>
 		</li>
 		<li class="small">
 			<p>年間休日</p>
 			<p class="num"><span>112</span>日</p>
-			<p class="at">※2025年計画</p>
+			<p class="at"> </p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
@@ -302,7 +306,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span> </span>日</p>
+			<p class="num"><span>12.8</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -311,8 +315,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 0.01, 'caption' => '取得者無し', 'color' => '#2378C7'],
+						[ 'value' => 0.01, 'caption' => '', 'color' => '#d9d9d9'],
+						[ 'value' => 100, 'caption' => '', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -344,12 +348,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p>年齢構成</p>
 			<svg width="150" height="150" viewBox="0 0 200 200">
 				<?php create_donut_graph(100, 100, 100, 40, [
-					[ 'value' => 2, 'caption' => "10代", 'color' => '#808080'],
-					[ 'value' => 10, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 17, 'caption' => '30代', 'color' => '#00AEEF'],
-					[ 'value' => 26, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 26, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 17, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 5, 'caption' => "10代", 'color' => '#808080'],
+					[ 'value' => 13, 'caption' => '20代', 'color' => '#0073B7'],
+					[ 'value' => 26, 'caption' => '30代', 'color' => '#00AEEF'],
+					[ 'value' => 28, 'caption' => '40代', 'color' => '#00B398'],
+					[ 'value' => 17, 'caption' => '50代', 'color' => '#009F6B'],
+					[ 'value' => 11, 'caption' => '60代', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -393,7 +397,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dt>事業内容</dt>
 			<dd>
 				<ul class="li_style">
-					<li>木製建具・家具製造販売</li>
+					<li>建具・家具・木製サッシの製造販売</li>
 				</ul>
 			</dd>
 		</div>
@@ -403,17 +407,27 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>46名（男性 35名／女性 11名、役員、パート・アルバイト含む）（2025年1月1日現在）</dd>
+			<dd>45名（男性 34名／女性 11名、役員、パート・アルバイト含む）（2025年6月1日現在）</dd>
 		</div>
 		<div>
-			<dt>本社所在地</dt>
+			<dt>真田工場 所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25677.65533748563!2d138.310348!3d36.440469!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dbddb15a2af99%3A0xf14f765602bf437a!2z77yI5qCq77yJ44Km44OD44OJ44OG44OD44Kv56eL5a-M!5e0!3m2!1sja!2sjp!4v1750672222691!5m2!1sja!2sjp"allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
-			<dt>本社電話番号</dt>
+			<dt>芳田工場 所在地</dt>
+			<dd>〒386-0151<br>長野県上田市芳田1052<br>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12845.542554161042!2d138.304578!3d36.399864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dbc11f3ad8289%3A0x5cf953f1ea85645d!2z44Km44OD44OJ44OG44OD44Kv56eL5a-M!5e0!3m2!1sja!2sjp!4v1750750079748!5m2!1sja!2sjp"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</dd>
+		</div>
+		<div>
+			<dt>真田工場 電話番号</dt>
 			<dd>0268-72-2003</dd>
+		</div>
+		<div>
+			<dt>芳田工場 電話番号</dt>
+			<dd>0268-71-5477</dd>
 		</div>
 		<div>
 			<dt>ホームページ</dt>
@@ -493,7 +507,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_tosou/">
 				<figure>
-					<img src="<?= $company_base ?>job_tosou/first-view.jpg" alt="">
+					<img src="<?= $company_base ?>job_tosou/first_view.jpg" alt="">
 					<figcaption>塗装職人</figcaption>
 				</figure>
 			</a>
@@ -501,7 +515,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_sekkei/">
 				<figure>
-					<img src="<?= $company_base ?>job_sekkei/first-view.jpg" alt="">
+					<img src="<?= $company_base ?>job_sekkei/first_view.jpg" alt="">
 					<figcaption>設計職</figcaption>
 				</figure>
 			</a>
