@@ -210,7 +210,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="employee1.jpg" alt="">
+				<img src="employee1.jpg" alt="" style="    object-fit: contain;">
 				<hgroup>
 					<h3>K・Mさん</h3>
 					<p>
@@ -543,7 +543,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
                 <li>
                     <a href="<?= $company_base . $prop['url'] ?>">
                         <figure>
-                            <img src="<?= $company_base . $prop['image'] ?>" alt="">
+                            <img src="<?= $company_base . $prop['image'] ?>" alt="" style="aspect-ratio: 3 / 2; object-fit: cover;">
                             <figcaption><?= $prop['name'] ?></figcaption>
                         </figure>
                     </a>
