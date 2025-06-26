@@ -2589,3 +2589,13 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	height: 120px;
 	object-fit: contain;
 }
+/*フレアオリジナルのロゴ*/
+.furea-original .company_name img {
+	height: 125px;
+	object-fit: contain;
+}
+
+.furea-original .company_nav .company_logo {
+	height: 100px;
+	object-fit: contain;
+}
