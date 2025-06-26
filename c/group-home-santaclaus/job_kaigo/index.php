@@ -405,7 +405,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>165,000円～</dd>
+					<dd>170,900円～</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -421,7 +421,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>165,000円</dd>
+					<dd>170,900円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -604,9 +604,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>
 						2025年7月28日（月）10時00分～<br>
 						2025年7月30日（水）10時00分～<br>
-						2025年8月4日（月）10時00分～<br>
-						2025年8月6日（水）10時00分～<br>
-						2025年8月8日（金）10時00分～
+						別日はご相談ください。
 					</dd>
 				</div>
 				<div>
