@@ -96,6 +96,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		デカい鉄骨に穴を開け、溶接で組み立て、最終的には自分の身長を超えるような巨大な土台（フレーム）を完成させます。<br>
 		そんな、超デカいものを作る仕事をやってみませんか？
 	</p>
+	<div class="images">
+		<img src="introduce1.jpg" class="scene" alt="">
+	</div>
 	<div id="gallery">
 		<div class="gallery_window">
 			<img src="first.jpg" alt="" class="fs show">
@@ -393,7 +396,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://sakucity-industrialpark.com/naitou/">https://sakucity-industrialpark.com/naitou/</a></dd>
+			<dd><a href="https://sakucity-industrialpark.com/naitou/" target="<?= $co['slug'] ?>">https://sakucity-industrialpark.com/naitou/</a></dd>
 		</div>
 	</dl>
 </section>

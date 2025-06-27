@@ -227,7 +227,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 	</div>
 </section>
-
 <section class="g requirements" id="recruitment_requirements">
 	<h2>募集要項</h2>
 	<div class="tabs">

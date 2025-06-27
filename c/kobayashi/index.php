@@ -85,6 +85,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="num-d"><a href="#numeric_data">数字で見る当社</a></li>
 		<li class="f-pre"><a href="#from_president">社長メッセージ</a></li>
 		<li class="com-in"><a href="#company_info">会社概要</a></li>
+		<li class="jobs"><a href="#recruitment_requirements">募集要項</a></li>
 	</ol>
 </section>
 <div class="about-com content" id="company_gallery">
@@ -435,7 +436,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.kobayashi-k-k.com">https://www.kobayashi-k-k.com</a></dd>
+			<dd><a href="https://www.kobayashi-k-k.com" target="<?= $co['slug'] ?>">https://www.kobayashi-k-k.com</a></dd>
 		</div>
 	</dl>
 </section>
@@ -574,7 +575,7 @@ id="recruitment_requirements">
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
-					<dd>-</dd>
+					<dd>円</dd>
 				</div>
 				<div>
 					<dt>基本給</dt>
@@ -590,11 +591,11 @@ id="recruitment_requirements">
 				</div>
 				<div>
 					<dt>固定残業代</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>-</dd>
+					<dd>円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -610,7 +611,7 @@ id="recruitment_requirements">
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
