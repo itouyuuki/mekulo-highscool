@@ -127,13 +127,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<?php endforeach; ?>
 	</div>
 	<h3>取材担当者からのポイント！</h3>
-	<h4 class="point">TBD</h4>
 	<figure class="portrait">
 		<img src=<?= $highschool_base . WRITER['shomura']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['shomura']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p>
-		TBD
+		信濃ハウジングは「家族の時間」や「暮らしの楽しさ」を形にする会社だと取材を通じて感じました。<br>
+        ただの外構工事ではなく、お客さんの“こうしたい”という想いに、それをこえるプランで応えていく姿勢を大切にしていることが印象的でした。お客さんに寄り添い、お客さんの立場でプランニングしているからできることだと思います。<br>
+        新入社員にも現場から丁寧に教え、成長を見守る風土があるのも魅力です。<br>
+        「人と話すのが好き」「誰かのために働きたい」という気持ちがあれば、経験がなくても大丈夫だと社長は言います。信濃ハウジングが造っているのは、お客さんのライフスタイル。<br>
+		お客さんの人生に自分の仕事が残る、そんなやりがいのある仕事に出会える会社です。<br>
 	</p>
 </div>
 <section class="content" id="about_company">
