@@ -11,7 +11,7 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$description = '佐久市で巨大な産業機械のフレームを製造する会社。一点物の鉄骨構造を切断・溶接・塗装まで一貫して手がけ、自分の身長を超えるスケールのモノづくりに挑めます。地域産業を支えるダイナミックな仕事です！';//メタディスクリプションの追加 
+$description = '株式会社キャステクは長野県青木村・丸子を拠点に、熟練の鋳造技術で未来の暮らしを支える製品を製造しています。砂型・金型鋳造から加工まで一貫対応し、環境技術にも挑戦中です。';//メタディスクリプションの追加 
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
