@@ -23,7 +23,7 @@ foreach ($occupation as $key => $job) {
 
 //========================================
 // ページのメタデータ
-$title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
+$title = $name . ' - ' . $co['company_name'] . '株式会社信濃ハウジングの高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $description = $meta_desc;
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $last_segment . '/';
@@ -78,12 +78,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 }
 </script>
 </head>
-<body class="newgrads highschool">
-<?php include $highschool_base . 'tmpl_header.php'; ?>
+<body class="highschool shinano-haujing">
+<?php //include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="firstview.jpg">
+    <img alt="" class="fv_image" src="first_view.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -123,38 +123,68 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="g" id="job_detail">
 	<h2>仕事内容</h2>
-	<h3>「ペレットって何？」から始めよう！</h3>
-	<div class="images">
-		<img src="<?= $company_base ?>business1.jpg" alt="" class="scene">
-	</div>
+	<h3>
+		理想の庭をつくるため、最初から最後まで関わる仕事
+	</h3>
 	<p>
-		相和の主な仕事は、プラスチック製品のもとになる「ペレット」という材料をつくることです。<br>
-		原料を混ぜて、溶かして、押し出して、カットして──米粒みたいな小さな粒が、次々に生まれていきます。できたペレットは、車の部品や食品のパッケージ、化粧品の容器などに使われ、あなたの身の回りに広がっています。
-	</p>
-	<h3>マシンオペレーターの仕事</h3>
-	<p>
-		この仕事を一言でいうと、“機械の相棒”。<br>
-		ペレット製造の現場では、機械を止めないことが大事。そのために、材料を入れたり、設定を確認したり、袋詰めをしたり、清掃や点検も行います。ミスが起きないように、ルール通りにコツコツ進めることが大切です。
+		お庭プランナーは、お客さまにぴったりのお庭を提案し、形にする仕事です。<br>
+		「車は何台停めたいか？」「どんなことをお庭で楽しみたいか？」などをヒアリングし、カタログや事例を見ながら簡単な図を描いて、イメージをつかみます。現地で土地の広さや日当たりなども確認し、細かくプランを決めていきます。
 	</p>
 	<div class="images">
-		<img src="work2.jpg" alt="" class="scene">
+	    <img src="planner08.jpg" alt="" class="scene">	
+	    <img src="planner01.jpg" alt="" class="scene">
 	</div>
 	<p>
-		最初は「材料を入れる」「袋詰めをする」といった簡単な作業からスタート。だいたい3か月くらいで一通りのことができるようになります。フォークリフトの資格も会社負担で取れますよ。
+		当社では、家にいきなり訪問したり、電話で無理に勧めたりする営業は行いません。来店されたお客さまに真剣に向き合い、お庭づくりをサポートします。
 	</p>
 	<div class="images">
-		<img src="work3.jpg" alt="" class="scene">
-		<img src="work4.jpg" alt="" class="scene">
+		<img src="planner02.jpg" alt="" class="scene">
 	</div>
-	<h3>働き方</h3>
 	<p>
-		当社の仕事は、一度機械を動かし始めたら24時間連続生産します。3交代で働きます。1勤が8時から17時、2勤が13時から22時まで。で、3勤が22時から翌朝8時までという形です。シフトを組み週単位で働く時間が変わっていきます。毎週金曜日にはすべての機械を解体し洗浄します。週が明けたら再び機械を組みなおして動かします。写真は機械の組み立て完了を示す札ですが、一つずつ確認しながら組み立てていきます。
+		完成イメージが固まったら、図面と見積書を作成。デザインや予算など、納得いただけるまで何度も提案します。実はお客さまと話す時間より、図面や見積りに向き合う時間のほうが多いんです。
 	</p>
 	<div class="images">
-		<img src="work5.jpg" alt="" class="scene">
+		<img src="../first_view.jpg" alt="" class="scene">
 	</div>
 	<p>
-		トラブル対応など一通りの仕事ができるようになるまでは、夜勤はありません。
+	材料の注文や職人さんとの打ち合わせなど、工事の準備も仕事の一つ。工事中は進み具合を確認し、お客さまの質問に答えられるように現場の状況を把握します。
+	</p>
+	<div class="images">
+		<img src="planner03.jpg" alt="" class="scene">
+		<img src="planner4.jpg" alt="" class="scene">
+	</div>
+	<p>
+		工事完了後に現場をチェックし、お客さまと仕上がりを確認。理想の形が実現できているか、一緒に確かめましょう。お客さまの想いをくみ取り、形にするのがこの仕事。「誰かのために何かしたい」と思う人に、向いているかもしれません。
+	</p>
+	<div class="images">
+		<img src="planner05.jpg" alt="" class="scene">
+	</div>
+	<h3>
+		できることが確実に増えていく
+	</h3>
+	<p>
+		入社後の最初の3カ月は、現場で研修です。お客さまの質問に答えられるよう、実際の工事のやり方や流れを経験して学びます。
+	</p>
+	<div class="images">
+		<img src="planner06.jpg" alt="" class="scene">
+		<img src="planner07.jpg" alt="" class="scene">
+	</div>
+	<p>
+		その後は、先輩プランナーと一緒に打ち合わせに参加。先輩の仕事を間近で見て、話し方や提案方法、「お客さまがどんなことを大切にしているのか」を肌で感じてみてください。やりとりのコツや、工夫が自然と身につきます。入社から5か月程で、一人でお客さまを担当できるようになります。
+	</p>
+	<div class="images">
+		<img src="planner08.jpg" alt="" class="scene">
+	</div>
+	<p>
+		現場研修の後は、図面作成にも挑戦。まず参考書でCADという図面作成ソフトの使い方を学び、先輩が作った図面をお手本に練習。最初からお客さまの前で図面を描くことはないので、安心です。<br>
+		店長がサポートするので、分からないことはすぐ相談できます。研修中は現場が中心ですが、雨の日は社内でCAD練習など、バランスよく学べます。
+	</p>
+	<div class="images">
+		<img src="planner09.jpg" alt="" class="scene">
+		<img src="planner10.jpg" alt="" class="scene">
+	</div>
+	<p>
+		住宅の内装・外装・外構と、幅広い分野を扱うので覚えることはたくさんあります。ですが、「いろんなことができるようになりたい」「学ぶことが楽しい」と思える人には、ぴったりの仕事です。
 	</p>
 </section>
 <section class="g">
@@ -162,24 +192,33 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="NRGallery" data-width="640" data-height="480">
 		<div class="image_area">
 			<ul class="slides">
-				<li>
-					<img src="gallery1.jpg" alt="">
-				</li>
-				<li>
-					<img src="<?= $company_base ?>introduce7.jpg" alt="">
-				</li>
-				<li>
-					<img src="<?= $company_base ?>introduce5.jpg" alt="">
-				</li>
-				<li>
-					<img src="gallery4.jpg" alt="">
-				</li>
-				<li>
-					<img src="gallery5.jpg" alt="">
-				</li>
-			</ul>
-			<div class="button left_btn">&lt;</div>
-			<div class="button right_btn">&gt;</div>
+	<li>
+		<img src="planner02.jpg" alt="">
+	</li>
+	<li>
+		<img src="planner08.jpg" alt="">
+	</li>
+	<li>
+		<img src="gallery01.jpg" alt="">
+	</li>
+	<li>
+		<img src="planner01.jpg" alt="">
+	</li>
+	<li>
+		<img src="planner03.jpg" alt="">
+	</li>
+	<li>
+		<img src="planner4.jpg" alt="">
+	</li>
+	<li>
+		<img src="planner09.jpg" alt="">
+	</li>
+	<li>
+		<img src="planner05.jpg" alt="">
+	</li>
+		</ul>
+		<div class="button left_btn">&lt;</div>
+		<div class="button right_btn">&gt;</div>
 		</div>
 	</div>
 </section>
@@ -188,17 +227,39 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="employee1.jpg" alt="">
+				<img src="katahira_.jpg" alt="">
 				<hgroup>
-					<h3>小林明人さん</h3>
+					<h3>片平さん</h3>
 					<p>
-						前職も製造業で残業が多くて大変でした。ここに転職して、体も楽になったし、時間の使い方に余裕ができました。最初は不安でしたが、先輩たちがみんな親切で、“教えるのが好きな人”が多い職場です。だから、質問しやすくて、仕事もすぐに覚えられました。<br>
-						24時間稼働の工場なので、夜勤もありますが、昼間の時間が自由に使えるので、神社めぐりに出かけたり、自分の趣味も楽しめます。<br>
-						工場の中を見てもらって、『ここならやっていけそう』って思えたら、ぜひ仲間になってください！
+						小さい頃から人と話すのが好きで、前職は飲食店に勤めていました。家族との時間を大切にしたいと思い、営業職でも土日に希望休みが取れる信濃ハウジングに転職しました。<br>
+                        営業は外に出る仕事というイメージがありましたが、日中に図面を描く時間もあり、残業も少なめ。自分で予定を立てて動けるので、定時の18時30分には帰宅できています。<br>
+                        この職場の良いところは、見積りや設計図の作り方を、店長に直接教えてもらえるところです。分からないことがあればすぐ聞けて、いつもそばでサポートしてくれました。
+					</p><br>
+                    <p>
+					    印象に残っているのは、お客さまから「お願いします」と言っていただき、契約が決まった瞬間。完成後に喜んでいただけたときは、本当にうれしかったです。
 					</p>
 				</hgroup>
 			</div>
-			<p>2021年中途入社<br>小林明人さん</p>
+			<p>片平さん</p>
+		</li>
+	</ul>
+	<ul class="Lightbox">
+		<li class="thumbnails">
+			<div class="thumbnail">
+				<img src="takizawa_.jpg" alt="">
+				<hgroup>
+					<h3>滝澤さん</h3>
+					<p>
+						以前の仕事で信濃ハウジングの現場に関わる機会がありました。社員さんの人柄や丁寧な対応、楽しそうに働く姿が印象的で、「こんな会社で働きたい」と思い入社を決めました。<br>
+                        図面作成は未経験でしたが、分からないことは質問すれば1から丁寧に教えてもらえます。教え方も、それぞれのペースに合わせてくれるため、無理なく成長できます。過去の事例を参考にしながら、経験を活かした指導をしてくれるのがありがたいです。<br>
+                        資格取得にも前向きで、受験費用は会社が負担するなど、挑戦を後押ししてくれます。
+					</p><br>
+                    <p>
+						お客さまから「また頼みます」と言ってもらえたときや、予算と希望のバランスが難しい中でも、予算に合わせた良い提案ができたときに大きな達成感がありました。正解のない仕事だからこそ、毎回その現場にとっての“最善”を考えて取り組んでいます。<br>
+					</p>
+				</hgroup>
+			</div>
+			<p>滝澤さん</p>
 		</li>
 	</ul>
 </section>
@@ -215,7 +276,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>マシンオペレーター</dd>
+					<dd>営業スタッフ</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -227,11 +288,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
-					<dd>あり</dd>
+					<dd>3カ月（待遇の変更なし）</dd>
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
@@ -239,22 +300,20 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>就業場所</dt>
-					<dd>
-						〒389-0505<br>
-						長野県東御市和７９２８
-					</dd>
+					<dd>〒3890505<br>
+					長野県東御市和１０５７－１</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>東部湯の丸インター駅から車5分</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>あり</dd>
+					<dd>屋内禁煙</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>屋内禁煙</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -266,16 +325,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>必要な知識・技能等</dt>
-					<dd>
-						必須<br>
-						<ul>
-							<li>
-								仕事に関する知識は全く必要ありません。安心してください。
-							</li>
-							<li>入社後、基礎から学ぶことができます。しっかりと先輩がつきますので不安な事は聞いてください。</li>
-							<li>会社は見はらしいのいい丘の上にあります。</li>
-						</ul>
-					</dd>
+					<dd>あれば尚可(建設系の知識)</dd>
 				</div>
 			</dl>
 			<h3>賃金・手当</h3>
@@ -286,15 +336,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>21日</dd>
+					<dd>22日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
-					<dd>現行</dd>
+					<dd>確定</dd>
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>180,000円</dd>
+					<dd>200,000円～</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -310,7 +360,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>180,000円</dd>
+					<dd>200,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -322,11 +372,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>毎月　20日</dd>
+					<dd>毎月15日</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり（月額 15,000円まで）</dd>
+					<dd>あり（上限あり）</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
@@ -334,39 +384,33 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回又は 3ヶ月分</dd>
+					<dd>年1回</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>
-						<ul>
-							<li>8時00分〜17時00分</li>
-							<li>13時00分〜22時00分</li>
-							<li>22時00分〜7時00分</li>
-						</ul>
-					</dd>
+					<dd>9時00分〜18時00分</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均10.4時間</dd>
+					<dd>月平均5時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>土日</dd>
+					<dd>週休2日制(シフト制)</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年間休日112日</dd>
+					<dd>年間休日100日</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>健康保険、厚生年金保険、雇用保険、労災保険</dd>
+					<dd>厚生年金保険、健康保険、雇用保険、労災保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
@@ -374,23 +418,23 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>あり(勤続3年以上)</dd>
+					<dd>あり（勤続年数1年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり</dd>
+					<dd>あり（60歳）</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>一律60歳</dd>
+					<dd>あり（定年年齢60歳）</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>あり（上限　65歳まで）</dd>
+					<dd>あり（上限年齢65歳）</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd>あり</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -403,15 +447,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
-					<dd>前年度:1人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>直近3年間の新卒者等離職者数</dt>
-					<dd>前年度:1人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>男性の新卒者等採用数</dt>
-					<dd>前年度:1人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
@@ -419,11 +463,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
-					<dd>6年</dd>
+					<dd>
+						8年<br>
+					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>42.5歳</dd>
+					<dd>45歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
@@ -431,15 +477,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>研修内容</dt>
-					<dd>
-						社内研修、社外研修、資格取得研修
-					</dd>
+					<dd>3カ月の新人研修</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						あり<br>
-						業務に資するとして会社が認めた資格について取得費用の一部負担
+						〇資格取得支援<br>
+						エクステリアプランナー(1級、2級)
 					</dd>
 				</div>
 				<div>
@@ -456,11 +500,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd> 10.4時間</dd>
+					<dd>5時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>9日</dd>
+					<dd>10日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -472,15 +516,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>0%</dd>
+					<dd>5.8%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
-					<dd>0%</dd>
+					<dd>11.7%</dd>
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>製造業</dd>
+					<dd>その他の識別工事業</dd>
 				</div>
 			</dl>
 		</div>
@@ -489,20 +533,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>1名</dd>
+					<dd>1人</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年8月20日（水） 10時00分～<br>
-						2025年8月20日（水） 13時30分～<br>
-						2025年8月21日（木） 10時00分～<br>
-						2025年8月21日（木） 13時30分～
+						2025年 月  日（ ）   時  分～<br>
+						2025年 月  日（ ）   時  分～
 					</dd>
 				</div>
 				<div>
 					<dt>選考方法</dt>
-					<dd>面接、適性検査</dd>
+					<dd>書類選考、面接</dd>
 				</div>
 				<div>
 					<dt>選考旅費</dt>
@@ -510,13 +552,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後５日以内</dd>
+					<dd>面接後７日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						代表取締役社長<br>
-						関　俊樹
+						代表取締役<br>
+						中澤英樹
 					</dd>
 				</div>
 			</dl>
@@ -529,8 +571,27 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<img src="../../../arrow.svg">
 		</a>
 	</div>
-</section>					
-</main>
+</section>		
+<section class="g nextpage">
+    <h2>その他の職種を見てみる</h2>
+    <ul class="image_navi">
+        <?php foreach ($occupation as $key => $prop): ?>
+            <?php if ($key !== $last_segment): // 現在のURLと異なる職種のみ表示 ?>
+                <li>
+                    <a href="<?= $company_base . $prop['url'] ?>">
+                        <figure>
+                            <img src="<?= $company_base . $prop['fv_url'] ?>" alt="">
+                            <figcaption><?= $prop['name'] ?></figcaption>
+                        </figure>
+                    </a>
+                </li>
+            <?php endif; ?>
+        <?php endforeach; ?>
+    </ul>
+</section>			
+			</ul>
+		</section>
+	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
 <?php //include $base . '../footer.php' ?>
