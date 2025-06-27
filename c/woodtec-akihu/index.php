@@ -310,7 +310,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 0.01, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 100, 'caption' => '', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '100%', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
