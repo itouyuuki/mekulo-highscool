@@ -419,11 +419,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
-					<dd>6年</dd>
+					<dd>10.5年</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>42.5歳</dd>
+					<dd>41.5歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
@@ -456,11 +456,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd> 19.7時間</dd>
+					<dd> 10.4時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>9日</dd>
+					<dd>12日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
