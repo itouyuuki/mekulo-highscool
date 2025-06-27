@@ -2628,3 +2628,14 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	height: 120px;
 	object-fit: contain;
 }
+
+/*坂口製作所のロゴ*/
+.sakaguchi-seisakuzyo .company_name img {
+	height: 130px;
+	object-fit: contain;
+}
+
+.sakaguchi-seisakuzyo .company_nav .company_logo {
+	height: 120px;
+	object-fit: contain;
+}
