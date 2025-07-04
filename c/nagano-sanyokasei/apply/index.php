@@ -73,7 +73,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <section id="visit1" class="content">
 	<p class="catchcopy"><span></span></p>
 	<p class="cont">
-		
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
