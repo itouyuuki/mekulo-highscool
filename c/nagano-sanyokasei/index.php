@@ -242,7 +242,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="large">
 		<p>売上高</p>
 		<p class="num"><span>29</span>億円</p>
-		<p class="year">※2024年実績</p>
 	</div>
 	<ul class="gr_con">
 		<li class="small">
@@ -260,7 +259,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="small">
 			<p>年間休日</p>
 			<p class="num"><span>120</span>日</p>
-			<p class="at">※2025年計画</p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
