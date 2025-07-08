@@ -247,11 +247,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>46</span>歳</p>
+			<p class="num"><span>47.2</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span>16.8</span>年</p>
+			<p class="num"><span>16</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
@@ -268,7 +268,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>17.5</span>日</p>
+			<p class="num"><span>3.5</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -277,8 +277,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 0.01, 'caption' => '取得者無し', 'color' => '#2378C7'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#d9d9d9'],
+						[ 'value' => 100, 'caption' => '100%', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -288,8 +288,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 90, 'caption' => '新卒', 'color' => '#2378C7'],
-						[ 'value' => 10, 'caption' => '中途', 'color' => '#F34444'],
+						[ 'value' => 30, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 70, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -299,8 +299,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
+						[ 'value' => 73, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 27, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -310,12 +310,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p>年齢構成</p>
 			<svg width="150" height="150" viewBox="0 0 200 200">
 				<?php create_donut_graph(100, 100, 100, 40, [
-					[ 'value' => 10, 'caption' => "10代", 'color' => '#808080'],
-					[ 'value' => 20, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 30, 'caption' => '30代', 'color' => '#00AEEF'],
-					[ 'value' => 40, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 100, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 40, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 1, 'caption' => "10代", 'color' => '#808080'],
+					[ 'value' => 12, 'caption' => '20代', 'color' => '#0073B7'],
+					[ 'value' => 18, 'caption' => '30代', 'color' => '#00AEEF'],
+					[ 'value' => 19, 'caption' => '40代', 'color' => '#00B398'],
+					[ 'value' => 28, 'caption' => '50代', 'color' => '#009F6B'],
+					[ 'value' => 22, 'caption' => '60代', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -324,8 +324,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
-						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
+						[ 'value' => 98, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 2, 'caption' => 'その他', 'color' => '#D04255'],
 					]); ?>
 				</svg>
 			</div>
@@ -335,8 +335,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 87, 'caption' => "長野県内87%", 'color' => '#B2CF3E'],
-							[ 'value' => 23, 'caption' => '県外23%', 'color' => '#FEE929'],
+							[ 'value' => 85, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 25, 'caption' => '県外', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
