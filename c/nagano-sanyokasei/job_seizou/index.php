@@ -245,7 +245,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd></dd>
+					<dd>製造職</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -261,7 +261,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間</dt>
-					<dd></dd>
+					<dd>あり（3カ月）</dd>
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
@@ -269,20 +269,20 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>就業場所</dt>
-					<dd>〒<br>
-					</dd>
+					<dd>〒389-0511<br>
+					長野県東御市滋野甲2305</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd></dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd></dd>
+					<dd>屋内禁煙</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -313,15 +313,20 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>円～</dd>
+
+					<dd>157,000円～</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
-					<dd></dd>
+					<dd>地域手当（10,000円）</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当②</dt>
-					<dd></dd>
+					<dd>食事手当（7,000円）</dd>
+				</div>
+				<div>
+					<dt>定期的に支払われる手当③</dt>
+					<dd>住宅手当（2,500円）</dd>
 				</div>
 				<div>
 					<dt>固定残業代</dt>
@@ -329,11 +334,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>円</dd>
+					<dd>157,000円～</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
-					<dd></dd>
+					<dd>皆勤手当（5,000円）</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当②</dt>
@@ -349,41 +354,41 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd></dd>
+					<dd>あり（前年度実績3%）</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd></dd>
+					<dd>年2回（初年度は1.5か月分、次年度から3.5か月分）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>時分〜時分</dd>
+					<dd>シフト制（交代制）<br>8時30分〜17時00分<br>16時00分〜0時30分<br>0時15分〜8時45分</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd></dd>
+					<dd>月平均10時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd></dd>
+					<dd>シフト制</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd></dd>
+					<dd>当社の就業カレンダーによる</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd></dd>
+					<dd>厚生年金保険、健康保険、雇用保険、労災保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd></dd>
+					<dd>確定拠出年金</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
@@ -391,11 +396,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd></dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd></dd>
+					<dd>60歳</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
@@ -403,7 +408,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd></dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -433,26 +438,25 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						年<br>
-						※創業以降の実績
+						16.8年
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>歳</dd>
+					<dd>46歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
-					<dd></dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>研修内容</dt>
-					<dd></dd>
+					<dd>入社後の座学・現場研修<br>配属後に力量に応じた教育訓練</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						
+						なし
 					</dd>
 				</div>
 				<div>
@@ -469,11 +473,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd>時間</dd>
+					<dd>10.9時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>日</dd>
+					<dd>17.5日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -485,7 +489,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>%</dd>
+					<dd>0%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
@@ -502,18 +506,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>人</dd>
+					<dd>2人</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						年月日（） 時分～<br>
-						年月日（） 時分～
+						-
 					</dd>
 				</div>
 				<div>
 					<dt>選考方法</dt>
-					<dd></dd>
+					<dd>面接、適性検査</dd>
 				</div>
 				<div>
 					<dt>選考旅費</dt>
@@ -521,13 +524,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後日以内</dd>
+					<dd>面接後14日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						<br>
-						
+						総務部<br>
+						小河原 良
 					</dd>
 				</div>
 			</dl>
