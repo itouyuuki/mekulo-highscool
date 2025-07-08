@@ -263,7 +263,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>試用期間</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd>あり（3カ月）</dd>
+=======
+					<dd>3ヵ月</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>3ヵ月</dd>
 >>>>>>> Stashed changes
@@ -280,7 +284,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>〒389-0511<br>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					長野県東御市滋野甲2305</dd>
+=======
+					長野県東御市滋野甲2305番地</dd>
+>>>>>>> Stashed changes
 =======
 					長野県東御市滋野甲2305番地</dd>
 >>>>>>> Stashed changes
@@ -296,11 +304,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>受動喫煙対策</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
 					<dd>屋内禁煙</dd>
+=======
+					<dd>あり(屋内禁煙)</dd>
+				</div>
+				<div>
+					<dt>受動喫煙対策に関する特記事項</dt>
+					<dd>-</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>あり(屋内禁煙)</dd>
 				</div>
@@ -339,7 +355,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>月平均労働日数</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd>日</dd>
+=======
+					<dd>21.9日</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>21.9日</dd>
 >>>>>>> Stashed changes
@@ -355,8 +375,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>基本給</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 					<dd>157,000円～</dd>
+=======
+					<dd>157,000円</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>157,000円</dd>
 >>>>>>> Stashed changes
@@ -384,7 +408,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>初任給</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd>157,000円～</dd>
+=======
+					<dd>176,500円</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>176,500円</dd>
 >>>>>>> Stashed changes
@@ -408,11 +436,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>通勤手当</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd></dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
 					<dd>あり（前年度実績3%）</dd>
+=======
+					<dd>実費支給（上限なし）</dd>
+				</div>
+				<div>
+					<dt>昇給</dt>
+					<dd>あり</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>実費支給（上限なし）</dd>
 				</div>
@@ -439,7 +475,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>就業期間</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd>シフト制（交代制）<br>8時30分〜17時00分<br>16時00分〜0時30分<br>0時15分〜8時45分</dd>
+=======
+					<dd>交代制（シフト制）<br>(1)8時10分〜17時15分<br>(2)16時00分〜0時30分<br>(3)0時15分〜8時45分</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>交代制（シフト制）<br>(1)8時10分〜17時15分<br>(2)16時00分〜0時30分<br>(3)0時15分〜8時45分</dd>
 >>>>>>> Stashed changes
@@ -455,11 +495,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>休日</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd>シフト制</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
 					<dd>当社の就業カレンダーによる</dd>
+=======
+					<dd>週休2日制（他）</dd>
+				</div>
+				<div>
+					<dt>その他休日</dt>
+					<dd>年間休日120日</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>週休2日制（他）</dd>
 				</div>
@@ -482,7 +530,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>加入保険等</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd>厚生年金保険、健康保険、雇用保険、労災保険</dd>
+=======
+					<dd>厚生年金保険、健康保険、介護保険、雇用保険、労災保険、財形保険</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>厚生年金保険、健康保険、介護保険、雇用保険、労災保険、財形保険</dd>
 >>>>>>> Stashed changes
@@ -527,7 +579,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>直近3年間の新卒者等採用者数</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd>前年度:人、2年度前：人、3年度前：人</dd>
+=======
+					<dd>前年度:0人、2年度前：0人、3年度前：3人</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>前年度:0人、2年度前：0人、3年度前：3人</dd>
 >>>>>>> Stashed changes
@@ -543,11 +599,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>男性の新卒者等採用数</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd>前年度:人、2年度前：人、3年度前：人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
 					<dd>前年度:人、2年度前：人、3年度前：人</dd>
+=======
+					<dd>前年度:0人、2年度前：0人、3年度前：2人</dd>
+				</div>
+				<div>
+					<dt>女性の新卒者等採用数</dt>
+					<dd>前年度:0人、2年度前：0人、3年度前：1人</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>前年度:0人、2年度前：0人、3年度前：2人</dd>
 				</div>
@@ -568,7 +632,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						16.8年
+=======
+						16.8年<br>
+>>>>>>> Stashed changes
 =======
 						16.8年<br>
 >>>>>>> Stashed changes
@@ -593,9 +661,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>自己啓発支援の有無</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<dd>
 						なし
 					</dd>
+=======
+					<dd>なし</dd>
+>>>>>>> Stashed changes
 =======
 					<dd>なし</dd>
 >>>>>>> Stashed changes
@@ -635,8 +707,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>女性役員割合</dt>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 =======
+=======
+					<dd>0%</dd>
+				</div>
+				<div>
+					<dt>女性の管理職割合</dt>
+>>>>>>> Stashed changes
 					<dd>0%</dd>
 				</div>
 				<div>
@@ -671,7 +750,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						-
+=======
+						2025年8月4日（月） 10時00分～11時00分<br>
+						2025年8月5日（火） 13時00分～14時00分
+>>>>>>> Stashed changes
 =======
 						2025年8月4日（月） 10時00分～11時00分<br>
 						2025年8月5日（火） 13時00分～14時00分
@@ -700,7 +784,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						総務部<br>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						小河原 良
+=======
+						小河原
+>>>>>>> Stashed changes
 =======
 						小河原
 >>>>>>> Stashed changes
