@@ -357,7 +357,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dt>事業内容</dt>
 			<dd>
 				<ul class="li_style">
-					<li>-</li>
+					<li>プラスチック製品製造販売</li>
 				</ul>
 			</dd>
 		</div>
