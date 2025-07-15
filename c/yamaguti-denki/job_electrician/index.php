@@ -86,7 +86,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
     </hgroup>
-		<a href="https://youtu.be/BS2_BUE3yB8?feature=shared" class="video-linkk" target="testvideo">
+		<a href="https://youtu.be/BS2_BUE3yB8?feature=shared" class="video-linkk" target="yamaden">
 			<img src="<?= $highschool_base ?>with-video.png" alt="">
 		</a>
     <?php if (count($occupation) >= 2): // 配列数が2以上か確認し、無い場合は非表示にする ?>
