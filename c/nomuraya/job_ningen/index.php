@@ -175,11 +175,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		そして準備が整ったら、企業や投資家（ファンド）に向けて、
 		「この土地でこんな発電所がつくれますよ」という提案営業を行い、買い手を探していきます。
 	</p>
-	<div class="images">
-		<img src="work2.jpg" alt="" class="scene">
-		<img src="<?= $company_base ?>second.jpg" alt="" class="scene">
-		<img src="work4.jpg" alt="" class="scene">
-	</div>
 </section>
 <section class="g">
 	<h2>写真で雰囲気を知る</h2>
