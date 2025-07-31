@@ -525,7 +525,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<a href="<?= $company_base ?>job_ningen/">
 				<figure>
 					<img src="first.jpg" alt="">
-					<figcaption>現場職人</figcaption>
+					<figcaption>測量・設計／営業</figcaption>
 				</figure>
 			</a>
 		</li>
