@@ -11,18 +11,15 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '野村屋ホールディングスは、瓦から始まり100年以上。東日本大震災を機に自然エネルギー・不動産・建築へと事業を広げ、変化を恐れず挑戦し続けています。そんな私たちの姿勢と採用情報をご紹介します。';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加
-
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
-
+$description = '野村屋ホールディングスは、瓦から始まり100年以上。東日本大震災を機に自然エネルギー・不動産・建築へと事業を広げ、変化を恐れず挑戦し続けています。そんな私たちの姿勢と採用情報をご紹介します。';//メタディスクリプションの追加 
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -30,9 +27,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <title><?= $title_with_site ?></title>
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
-<?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
 <?php } ?>
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
@@ -54,13 +48,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>
@@ -121,18 +115,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 	</div>
 	<h3>募集職種</h3>
-<div class="job_btn">
-    <?php foreach ($occupation as $job): ?>
-        <li>
-            <a href="<?= $company_base . $job['url'] ?>/">
-                <p class="job_name"><?= $job['name'] ?></p>
-            </a>
-            <div class="arrow">
-                <img src="<?= $highschool_base ?>polygon.png" alt="">
-            </div>
-        </li>
-    <?php endforeach; ?>
-</div>
+	<div class="job_btn">
+		<?php foreach ($occupation as $job): ?>
+			<li>
+				<a href="<?= $company_base . $job['url'] ?>/">
+					<p class="job_name"><?= $job['name'] ?></p>
+				</a>
+				<div class="arrow">
+					<img src="<?= $highschool_base ?>polygon.png" alt="">
+				</div>
+			</li>
+		<?php endforeach; ?>
+	</div>
 	<h3>取材担当者からのポイント！</h3>
 	<figure class="portrait">
 		<img src=<?= $highschool_base . WRITER['noguchi']['image'] //担当者名をここに記入?> alt="">
@@ -161,8 +155,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		しかし、時代は変わり、住宅の屋根は瓦から板金などへと移り変わり、それにともない、私たちの仕事も大きく減少していきました。
 	</p>
 	<div class="images">
-		<img src=".jpg" class="scene" alt="">
-		<img src=".jpg" class="scene" alt="">
+		<img src="sendai.jpg" class="scene" alt="">
 	</div>
 	<h3>変化のきっかけは東日本大震災、そして若き社長の決断</h3>
 	<p>
@@ -177,20 +170,29 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 
 	</p>
 	<div class="images">
-		<img src="first.jpg" class="scene" alt="">
+		<img src="fifth.jpg" class="scene" alt="">
+		<img src="sixth.jpg" class="scene" alt="">
 	</div>
 	<h3>「瓦の野村屋」から、「多角経営の野村屋ホールディングス」へ</h3>
 	<p>
 		2012年、「有限会社野村屋瓦工業」から「株式会社野村屋」へと社名を変更。<br>
 		住宅向け太陽光発電システムの設置事業をスタートさせ、本格的に自然エネルギー分野に挑戦し始めました。<br>
 		翌2013年には産業用太陽光の販売に乗り出し、2014年には自社で太陽光発電所を保有。2015年からは分譲型太陽光発電所の販売も手がけるなど、自然エネルギー事業を着実に拡大していきました。<br>
+	<div class="images">
+		<img src="first.jpg" class="scene" alt="">
+		<img src="seventh.jpg" class="scene" alt="">
+	</div>
 		しかし、かつて瓦一筋だった私たちは、「一つの事業に依存すれば、成長はやがて止まり、衰退が訪れる」という現実を経験しています。<br>
 		だからこそ、2018年には不動産事業を担う「株式会社野村屋トラスト」を設立。<br>
+	<div class="images">
+		<img src="logo-big.png" class="scene" alt="">
+	</div>
 		さらに2022年には、砕石の製造・販売を手がける「丸眞興業有限会社」を、2023年には新築住宅を手掛ける「株式会社菱田工務店」をグループ化し、ゴルフ練習場「グリーン・ヒル神畑」と連携・提携を図り、グループ全体としての多角化を一層進めてきました。<br>
 		現在では上田駅前にあった閉鎖中のホテルを取得し、温泉施設として「SALO'Sプロジェクト」も進行中です。
 	</p>
 	<div class="images">
-		<img src="introduce4.jpg" class="scene" alt="">
+		<img src="eighth.jpg" class="scene" alt="">
+		<img src="ninth.jpg" class="scene" alt="">
 	</div>
 		<h3>「次の100年」をつくるために</h3>
 	<p>
@@ -247,7 +249,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business2.jpg" alt="">
+					<img src="logo-big.png" alt="">
 				</div>
 				<hgroup>
 					<h3>ノム・トラスト株式会社</h3>
@@ -520,7 +522,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>募集職種</h2>
 	<ul class="image_navi">
 		<li>
-			<a href="<?= $company_base ?>job_genba/">
+			<a href="<?= $company_base ?>job_ningen/">
 				<figure>
 					<img src="first.jpg" alt="">
 					<figcaption>現場職人</figcaption>

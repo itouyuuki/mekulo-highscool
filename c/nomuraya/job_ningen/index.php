@@ -90,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="<?= $company_base ?>first.jpg">
+    <img alt="" class="fv_image" src="first.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -136,6 +136,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p>
 		株式会社人間電力（野村屋ホールディングス）は、太陽光発電や蓄電池を組み合わせた「再生可能エネルギー」の仕組みをつくる会社です。<br>
 		太陽の光で発電するだけでなく、昼間に使いきれなかった電気を「蓄電池」にためておけば、夜や災害時にも使えるようになります。<br>
+	</p>
+	<div class="images">
+		<img src="second.jpg" alt="" class="scene">
+		<img src="third.jpg" alt="" class="scene">
+	</div>
+	<p>
 		この仕組みを、長野県から全国へと広げていくのが、私たち人間電力の役割です。<br>
 		そして、その役割を社内で２つチームに分かれ、仕事を進めています。<br>
 		建物に太陽光パネルを設置し、「電気をつくる」仕事を行う【ビルド事業部】<br>
@@ -150,12 +156,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		太陽のエネルギーを活用するには、屋根に太陽光パネルを設置する工事が必要です。<br>
 		この設置工事・設計を担当するのが「ビルド事業部」です。<br>
 		人間電力では、提案・設計・施工までをすべて自社で一貫して対応しています。<br>
+	</p>
+	<div class="images">
+		<img src="fourth.jpg" alt="" class="scene">
+		<img src="fifth.jpg" alt="" class="scene">
+	</div>
+	<p>
 		工場や住宅など、建物の屋根に合ったパネルの配置を考え、安全で効率的な発電ができるように設計します。<br>
 		工事の対象は、法人から一般のご家庭までさまざま。最近は「電気代を抑えたい」という理由から、一般家庭での設置が増えています。
 	</p>
-	<div class="images">
-		<img src="work1.jpg" alt="" class="scene">
-	</div>
 	<h3>蓄電池を導入するための土地探しと申請業務（蓄電池事業部）</h3>
 	<p>
 		電気をためる「蓄電池（発電所のようなイメージ）」は、簡単にどこでも置けるわけではありません。<br>
@@ -177,24 +186,39 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="NRGallery" data-width="640" data-height="480">
 		<div class="image_area">
 			<ul class="slides">
-			<li>
-		<img src="work1.jpg" alt="">
-	</li>
-	<li>
-		<img src="gallery2.jpg" alt="">
-	</li>
-	<li>
-		<img src="work5.jpg" alt="">
-	</li>
-	<li>
-		<img src="work10.jpg" alt="">
-	</li>
-	<li>
-		<img src="<?= $company_base ?>fourth.jpg" alt="">
-	</li>
-		</ul>
-		<div class="button left_btn">&lt;</div>
-		<div class="button right_btn">&gt;</div>
+				<li>
+					<img src="first.jpg" alt="">
+				</li>
+				<li>
+					<img src="fifth.jpg" alt="">
+				</li>
+				<li>
+					<img src="sixth.jpg" alt="">
+				</li>
+				<li>
+					<img src="seventh.jpg" alt="">
+				</li>
+				<li>
+					<img src="eighth.jpg" alt="">
+				</li>
+				<li>
+					<img src="fourth.jpg" alt="">
+				</li>
+				<li>
+					<img src="ninth.jpg" alt="">
+				</li>
+				<li>
+					<img src="tenth.jpg" alt="">
+				</li>
+				<li>
+					<img src="eleventh.jpg" alt="">
+				</li>
+				<li>
+					<img src="twelfth.jpg" alt="">
+				</li>
+			</ul>
+			<div class="button left_btn">&lt;</div>
+			<div class="button right_btn">&gt;</div>
 		</div>
 	</div>
 </section>
@@ -568,27 +592,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<img src="../../../arrow.svg">
 		</a>
 	</div>
-</section>		
-<section class="g nextpage">
-    <h2>その他の職種を見てみる</h2>
-    <ul class="image_navi">
-        <?php foreach ($occupation as $key => $prop): ?>
-            <?php if ($key !== $last_segment): // 現在のURLと異なる職種のみ表示 ?>
-                <li>
-                    <a href="<?= $company_base . $prop['url'] ?>">
-                        <figure>
-                            <img src="<?= $company_base . $prop['fv_url'] ?>" alt="">
-                            <figcaption><?= $prop['name'] ?></figcaption>
-                        </figure>
-                    </a>
-                </li>
-            <?php endif; ?>
-        <?php endforeach; ?>
-    </ul>
-</section>			
-			</ul>
-		</section>
-	</main>
+</section>
+</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
 <?php //include $base . '../footer.php' ?>

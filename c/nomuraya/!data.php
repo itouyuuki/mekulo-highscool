@@ -19,7 +19,7 @@ $co = [
 
 // 募集職種
 $occupation = [
-    'job_genba' => [
+    'job_ningen' => [
         'name' => '測量・設計／営業',
         'url' => 'job_ningen',
         'catch_copy' => '電気を「ためて、使う」、新しいインフラを創造するチーム',
